@@ -1,0 +1,34 @@
+<html lang='en'>
+	<head>
+		<meta charset='UTF-8' />
+		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
+		<link rel='stylesheet' href='css/style.css' />
+		<script defer src="js/script.js"></script>
+
+		<title>Weather App | Vatsal</title>
+	</head>
+
+	<body>
+		{{> header}}
+		<div class="container">
+			<section id='header'>
+				<h1>{{heading}}</h1>
+				<p>{{para}}</p>
+
+			</section>
+
+			<form>
+				<input type="text" placeholder="Enter a location">
+				<button class="btn">Search</button>
+			</form>
+
+			<p class="res-location"></p>
+			<p class="res-forecast"></p>
+		</div>
+
+
+	</body>
+	
+</html>
